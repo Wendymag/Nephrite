@@ -265,6 +265,16 @@ body {
   text-decoration: none;
 } 
 
+/* similar content styling codes*/
+section{
+  padding: 100px 0;
+}
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
 .contact .contact-content{
   display: flex;
   flex-wrap: wrap;
@@ -280,16 +290,7 @@ section .title{
   padding-bottom: 20px;
   font-family: 'Ubuntu', sans-serif;
 }
-section .title::before{
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  width: 180px;
-  height: 3px;
-  background: #111;
-  transform: translateX(-50%);
-}
+
 section .title::after{
   position: absolute;
   bottom: -8px;
@@ -300,6 +301,7 @@ section .title::after{
   background: #fff;
   transform: translateX(-50%);
 }
+
 
 /* contact section */ 
 
